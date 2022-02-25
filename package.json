@@ -77,5 +77,9 @@
     "husky": "^6.0.0",
     "lint-staged": "^10.1.2",
     "prettier": "^2.2.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/bchiang7/v4/issues"
+  },
+  "main": "gatsby-browser.js"
 }

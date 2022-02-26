@@ -1,13 +1,25 @@
 language: node_js
-before_script:
-  - npm install -g gatsby-cli
-  - nvm install
+
 node_js:
-  - "10"
+  - "stable"
+
+cache:
+  directories:
+    - node_modules
+
+before_script:
+  - "yarn add global gatsby"
+  - "yarn install"
+script:
+  - "yarn build"
+after_success:
+  - "yarn deploy"
+
 deploy:
-  provider: script
-  # Note: change "docs" to the directory where your gatsby-site lives, if necessary
-  script: yarn install && npm run deploy
+  provider: pages
   skip_cleanup: true
+  github_token: $GH_TOKEN
+  local_dir: public
+  target_branch: main
   on:
-    branch: main
+    branch: develop

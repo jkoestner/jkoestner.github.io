@@ -4,7 +4,7 @@ title: 'smart home beginner'
 github: ''
 external: 'https://www.smarthomebeginner.com/'
 tech:
-  - 
+  - python
 company: ''
 showInProjects: true
 ---

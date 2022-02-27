@@ -4,7 +4,7 @@ title: 'mlfinlab'
 github: 'https://github.com/hudson-and-thames/mlfinlab'
 external: 'https://hudsonthames.org/'
 tech:
-  - 
+  - python
 company: 'Hudson and Thames'
 showInProjects: true
 ---

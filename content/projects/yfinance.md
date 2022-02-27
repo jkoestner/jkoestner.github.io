@@ -1,10 +1,10 @@
 ---
 date: '2022-02-27'
 title: 'yfinance'
-github: 'https://github.com/ranaroussi/yfinance/'
-external: ''
+github: ''
+external: 'https://github.com/ranaroussi/yfinance/'
 tech:
-  - 
+  - python
 company: ''
 showInProjects: true
 ---

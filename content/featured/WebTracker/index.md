@@ -3,6 +3,8 @@ date: '2'
 title: 'Web Tracker'
 cover: './demo.png'
 github: 'https://github.com/jkoestner/web_tracker'
+external: ''
+cta: ''
 tech:
   - Python
   - Web Scraping

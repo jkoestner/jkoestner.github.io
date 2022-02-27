@@ -10,4 +10,4 @@ tech:
   - IEX
 ---
 
-A financial dashboard that is able to tap into the [IEX]("https://iexcloud.io/") API.
+A financial dashboard that is able to tap into the [IEX](https://iexcloud.io/) API.

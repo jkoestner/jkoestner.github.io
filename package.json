@@ -73,7 +73,7 @@
     "prettier": "^2.2.1"
   },
   "bugs": {
-    "url": "https://github.com/bchiang7/v4/issues"
+    "url": "https://github.com/jkoestner/jkoestner.github.io/issues"
   },
   "main": "gatsby-browser.js"
 }

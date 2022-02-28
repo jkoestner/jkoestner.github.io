@@ -10,10 +10,13 @@ const IconLogo = () => (
           stroke="currentColor"
           strokeWidth="5"
         />
+      </g>
+      <g transform="translate(11.000000, 5.000000)">
         <polygon
           id="Shape"
           stroke="currentColor"
           strokeWidth="5"
+          fill="none"
           strokeLinecap="round"
           strokeLinejoin="round"
           points="39 0 0 22 0 67 39 90 78 68 78 23"

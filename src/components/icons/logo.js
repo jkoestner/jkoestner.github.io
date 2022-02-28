@@ -4,10 +4,11 @@ const IconLogo = () => (
   <svg id="logo" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 84 96">
     <title>Logo</title>
     <g transform="translate(-8.000000, -2.000000)">
-      <g transform="translate(11.000000, 5.000000)">
+      <g transform="translate(32.000000, 30.000000)">
         <path
-          d="M30,20 l25,0 -10,0 0,45 c0,0 -25,15 -30,-10"
-          fill="currentColor"
+          d="M3,3,L34,3,M20,3,L20,36,L3,36,L3,25"
+          stroke="currentColor"
+          strokeWidth="5"
         />
         <polygon
           id="Shape"

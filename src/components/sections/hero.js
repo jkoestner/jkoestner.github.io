@@ -71,7 +71,7 @@ const Hero = () => {
   const five = (
     <a
       className="email-link"
-      href="https://koestner.herokuapp.com/"
+      href="https://koestner.fly.dev/"
       target="_blank"
       rel="noreferrer">
       My financial dashboard

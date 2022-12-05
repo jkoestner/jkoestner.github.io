@@ -3,9 +3,9 @@ date: '1'
 title: 'Financial Dashboard'
 cover: './demo.png'
 github: 'https://github.com/jkoestner/IEX'
-external: 'https://koestner.herokuapp.com/'
+external: 'https://koestner.fly.dev/'
 tech:
-  - Heroku
+  - Fly.io
   - Plotly
   - IEX
 ---

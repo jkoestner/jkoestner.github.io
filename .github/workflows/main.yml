@@ -10,11 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      
-      - name: setup git config
-        run: |
-          git config --global user.name "John Koestner"
-          git config --global user.email "johnkoestner@outlook.com"
 
       - name: Set Node.js
         uses: actions/setup-node@v3
@@ -26,8 +21,3 @@ jobs:
         
       - name: Deploy
         run: yarn run deploy
-        
-      - uses: enriikke/gatsby-gh-pages-action@v2
-        with:
-          access-token: ${{ secrets.GH_TOKEN }}
-          deploy-branch: gh-pages

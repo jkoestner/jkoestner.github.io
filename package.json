@@ -14,7 +14,7 @@
   "license": "MIT",
   "browserslist": "> 0.25%, not dead",
   "scripts": {
-    "deploy": "gatsby build --prefix-paths",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -r https://$GH_TOKEN@github.com/jkoestner/jkoestner.github.io.git",
     "test": "echo \"WIP...\""
   },
   "lint-staged": {

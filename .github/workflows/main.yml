@@ -19,5 +19,7 @@ jobs:
       - name: Install dependencies
         run: yarn install --force
         
+      - run: git config user.name "John Koestner" && git config user.email "john.koestner@outlook.com"
+        
       - name: Deploy
         run: yarn run deploy

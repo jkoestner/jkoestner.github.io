@@ -20,7 +20,7 @@ jobs:
         run: yarn install --force
         
       - name: Git config  
-      - run: git config user.name "John Koestner" && git config user.email "john.koestner@outlook.com"
+        run: git config user.name "GitHub Action Bot" && git config user.email "<>"
         
       - name: Deploy
         run: yarn run deploy

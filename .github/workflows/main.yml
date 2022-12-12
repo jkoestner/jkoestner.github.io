@@ -15,6 +15,8 @@ jobs:
         run: |
           git config --global user.name "John Koestner"
           git config --global user.email "johnkoestner@outlook.com"
+
+      - name: gatsby cli
         run: npm install -g gatsby-cli
 
       - name: Set Node.js

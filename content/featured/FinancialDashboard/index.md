@@ -2,12 +2,12 @@
 date: '1'
 title: 'Financial Dashboard'
 cover: './demo.png'
-github: 'https://github.com/jkoestner/IEX'
+github: 'https://github.com/jkoestner/folioflex'
 external: 'https://koestner.fly.dev/'
 tech:
-  - Fly.io
+  - Python
   - Plotly
-  - IEX
+  - Fly.io
 ---
 
-A financial dashboard that is able to tap into the [IEX](https://iexcloud.io/) API.
+A financial dashboard for monitoring portfolios and providing metrics of market.

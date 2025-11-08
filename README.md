@@ -32,6 +32,7 @@ npm run build
 # Export static site
 npm run export
 ```
+Ensure that github pages points to the `gh-pages` branch and not the `main` branch
 
 ## Adding Content
 

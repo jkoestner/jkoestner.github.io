@@ -3,7 +3,7 @@ date: '3'
 title: 'OSLLMH (Open Source LLM Helper)'
 cover: './llm_logo.png'
 github: 'https://github.com/jkoestner/osllmh'
-external: ''
+external: 'https://github.com/jkoestner/osllmh'
 cta: ''
 tech:
   - Python

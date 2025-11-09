@@ -7,6 +7,7 @@ external: 'https://morai.koestner.fun/'
 tech:
   - Python
   - Plotly
+  - Postgres
 ---
 
 Morai is an actuarial tool that can analyze mortality interfacing with the SOA mortality tables

@@ -7,6 +7,7 @@ external: 'https://invest.koestner.fun/'
 tech:
   - Python
   - Plotly
+  - Postgres
 ---
 
 A financial dashboard for monitoring portfolios and providing metrics of market.

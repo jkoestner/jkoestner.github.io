@@ -75,7 +75,7 @@ const GlobalStyle = createGlobalStyle`
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     background-color: var(--navy);
-    background-image: url('/background/blueride.png');
+    background-image: url('/images/background/blueridge.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

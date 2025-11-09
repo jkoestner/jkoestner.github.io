@@ -1,9 +1,9 @@
 ---
-date: '3'
+date: '4'
 title: 'Pensieve (Web Tracker)'
 cover: './pensieve_logo.png'
 github: 'https://github.com/jkoestner/pensieve'
-external: 'https://pensieve.koestner.fun/'
+external: ''
 cta: ''
 tech:
   - Python

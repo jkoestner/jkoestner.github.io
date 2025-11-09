@@ -14,6 +14,10 @@ const StyledLoader = styled.div`
   width: 100%;
   height: 100%;
   background-color: var(--dark-navy);
+  background-image: url('/images/background/blueridge.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   z-index: 99;
 
   .logo-wrapper {

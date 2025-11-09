@@ -322,6 +322,7 @@ const Featured = ({ featured }) => {
   const imageMap = {
     'FolioFlex': 'folioflex.png',
     'Morai': 'morai.png',
+    'Osllmh': 'osllmh.png',
     'Pensieve': 'pensieve.png',
   };
 

@@ -1,6 +1,6 @@
 # Personal Website
 
-My personal website built with Next.js and React. Visit it at [https://jkoestner.github.io/](https://jkoestner.github.io/)
+My personal website built with Next.js and React. Visit it at [https://johnkoestner.com/](https://jkoestner.github.io/)
 
 ## Tech Stack
 

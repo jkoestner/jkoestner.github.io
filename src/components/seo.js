@@ -6,7 +6,7 @@ import { useRouter } from 'next/router';
 const siteMetadata = {
   title: 'John Koestner',
   description: 'John Koestner is an actuary and developer specializing in life insurance and financial applications.',
-  siteUrl: 'https://jkoestner.github.io',
+  siteUrl: 'https://johnkoestner.com',
   image: '/og.png',
   twitterUsername: '@jkstreamin',
 };
@@ -27,6 +27,7 @@ const SEO = ({ title, description, image }) => {
   return (
     <Head>
       <title>{fullTitle}</title>
+      <link rel="canonical" href={seo.url} /> # preferred URL
       <meta name="description" content={seo.description} />
       <meta name="image" content={seo.image} />
 
